@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dr.Content
 
-# Run and deploy your AI Studio app
+AI Multi-Platform Content Optimizer
 
-This contains everything you need to run your app locally.
+## 🚀 Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1s6yCS6ejY89ubf2OfdMkxUOBg8iHYskF
+Dr.Content is an AI-powered tool that generates platform-optimized content for LinkedIn, Instagram, Twitter, YouTube, and Blogs.
 
-## Run Locally
+It helps creators:
+- Generate engaging hooks
+- Create full platform-specific posts
+- Suggest hashtags
+- Provide SEO keywords
+- Recommend posting strategy
+- Repurpose content across platforms
 
-**Prerequisites:**  Node.js
+Built for AI for Bharat Hackathon – Track 02.
 
+---
+
+## 🛠 Tech Stack
+
+- React + Vite
+- TypeScript
+- Gemini API (gemini-1.5-flash)
+- Tailwind CSS
+
+---
+
+## ⚙️ Run Locally
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
